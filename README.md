@@ -10,14 +10,23 @@
 * npm install -g 명령은 반드시 관리자 권한으로 입력해야 한다.
 
 ## 최초에 설치할 Pagkage(pulg in)
-* nodemon : nodejs 코드를 작성하고 저장을하면 자동으로 재 실행하여 결과를 확인할수있도록 도와주는 plugin
-* express-generator : nodejs + express 프레임워크 서버 어플리케이션을 작성할때 사용하는 plugin
-* create-react-app : React 기반의 프로젝트를 작성할때 사용하는 plugin
-* yarn : react 프로젝트를 만들어서 개발할때 npm을 대신하여 사용하는 pakage 관리자
+* cmd 창에서 관리자권한으로 입력
+* nodemon : nodejs 코드를 작성하고 저장을하면 자동으로 재 실행하여 결과를 확인할수있도록 도와주는 plugin (npm install -g nodemon)
+* express-generator : nodejs + express 프레임워크 서버 어플리케이션을 작성할때 사용하는 plugin (npm install -g express-generator) 
+* create-react-app : React 기반의 프로젝트를 작성할때 사용하는 plugin (npm install -g create-react-app) 
+* yarn : react 프로젝트를 만들어서 개발할때 npm을 대신하여 사용하는 pakage 관리자 (npm install -g yarn)
 
-npm install -g npm
-npm install -g nodemon
-npm install -g express-generator
-npm install -g create-react-app
-npm install -g yarn
+## nodejs 프로젝트 생성하기
+1. 고전적인 방법  
+>mkdir 프로젝트명
+>cd 프로젝트명
+>npm init -y 
+2. express-generator를 이용하여 백앤드 프로젝트 만드는 방법
+>express 프로젝트명
+>cd 프로젝트명
+>npm install
+3. create-react-app 이용한 React 프론트앤드 프로젝트 만드는 방법
+>create-react-app 프로젝트명
+>cd 프로젝트명
+>yarn
 

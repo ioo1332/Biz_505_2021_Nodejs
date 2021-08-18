@@ -9,7 +9,7 @@
 * 시스템에 공통으로 사용되는 plugin 들은 npm istall -g plugin 형식으로 명령을 입력한다
 * npm install -g 명령은 반드시 관리자 권한으로 입력해야 한다.
 
-## 최초에 설치할 Pagkage(pulg in)
+## 최초에 설치할 Pakage(pulg in)
 * cmd 창에서 관리자권한으로 입력
 * nodemon : nodejs 코드를 작성하고 저장을하면 자동으로 재 실행하여 결과를 확인할수있도록 도와주는 plugin (npm install -g nodemon)
 * express-generator : nodejs + express 프레임워크 서버 어플리케이션을 작성할때 사용하는 plugin (npm install -g express-generator) 

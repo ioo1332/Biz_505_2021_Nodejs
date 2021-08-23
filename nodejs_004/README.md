@@ -8,12 +8,12 @@ npm install moment
 
 ## dependency upgrade
 
-npm install cookie-parser
-npm install debug
-npm install ejs
-npm install express
-npm install http-errors
-npm install morgan
+npm install cookie-parser  
+npm install debug  
+npm install ejs  
+npm install express  
+npm install http-errors  
+npm install morgan  
 
 ## sequelize를 사용한 MySQL DB 생성하기
 

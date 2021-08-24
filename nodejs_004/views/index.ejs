@@ -30,12 +30,5 @@
     document.querySelector("button.btn_write").addEventListener("click", () => {
       document.location.href = "/bbs/write";
     });
-    document.addEventListener("click", (e) => {
-      let target = e.target;
-      let tagName = target.tagName;
-      if (tagName === "TD") {
-        document.location.href = "/bbs/update";
-      }
-    });
   </script>
 </html>

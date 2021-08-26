@@ -13,7 +13,11 @@ npm install debug
 npm install ejs  
 npm install express  
 npm install http-errors  
-npm install morgan  
+npm install morgan
+
+### MySQL DB 생성하기
+
+sequelize init
 
 ## sequelize를 사용한 MySQL DB 생성하기
 

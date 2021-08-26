@@ -10,3 +10,4 @@ CREATE DATABASE nodeDB;
 USE nodeDB;
 DESC tbl_bbs;
 DROP TABLE tbl_bbs;
+drop table tbl_replies;

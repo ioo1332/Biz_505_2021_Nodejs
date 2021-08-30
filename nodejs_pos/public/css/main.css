@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+table,
+footer {
+  width: 80%;
+  margin: 10px auto;
+}
+h1,
+div.table {
+  margin: 10px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+footer {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
